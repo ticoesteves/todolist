@@ -158,10 +158,6 @@ body {
 
 @media only screen and (max-width:560px){
 
-    .header__form {
-        padding: 0 1rem;
-    }
-
     .content {
         padding: 0 1rem;
     }
