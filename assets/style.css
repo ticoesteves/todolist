@@ -5,11 +5,6 @@
     border: none;
 }
 
-h1 {
-    width: 100%;
-    text-align: left;
-}
-
 body {
     font-family: sans-serif;
     font-size: 1.2rem;
@@ -18,9 +13,29 @@ body {
 .header__form {
     width: 100%;
     display: flex;
+    align-items: center;
     margin-bottom: 1.5rem;
     padding-bottom: 1rem;
     border-bottom: 1px solid #000;
+}
+
+.header__form h1 {
+    width: 100%;
+    text-align: left;
+}
+
+.credits {
+    width: 250px;
+    font-size: 1rem;
+}
+
+.credits a {
+    color: #698EC0;
+    text-decoration: none;
+}
+
+.credits a:hover {
+    color: #375a88;
 }
 
 .del__list {
