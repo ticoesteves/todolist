@@ -4,7 +4,7 @@ function addItem(){
         alert("Digite uma tarefa.");
     }else{
     document.getElementById("getItem").insertAdjacentHTML(
-        "beforeend" , "<div class='item__list'><input type='checkbox' class='mark__task' /><span class='item__text'>" 
+        "beforeend" , "<div class='item__list form animate__animated animate__fadeInDown'><input type='checkbox' class='mark__task' /><span class='item__text'>" 
         + itemList 
         + "</span> <button class='del__item' onclick='delDiv();'>&#10006;</button></div>");
     document.getElementById("addItemList").value = "";
